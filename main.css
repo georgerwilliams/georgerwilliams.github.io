@@ -1,0 +1,242 @@
+/********************
+    GENERAL ELEMENTS
+*********************/
+p {
+    font-size: 16px;
+    padding-top: 5px;
+    color: dimgray;
+}
+h {
+    font-size: 21px;
+    font-weight: 600;
+    color: #0e2f44;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+a {
+    color: #87CEEB;
+}
+a:hover {
+    color: green;
+}
+
+/********************
+    JUMBOTRON
+*********************/
+.jumbotron {
+    background-image: url('assets/sky_grass.jpg');
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-bottom: 3px solid grey;
+}
+.jumbotron .container {
+    margin-bottom: 15px;
+    margin-top: -20px;
+    text-align: center;
+}
+.jumbotron h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    display: block;
+}
+.jumbotron a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 10px;
+}
+.jumbotron a:hover {
+    color: #87CEEB;
+}
+.jumbotron .nav {
+    margin-top: 215px;
+}
+
+/********************
+    NAVIGATION
+*********************/
+.nav li {
+    display: inline;
+}
+.tabs {
+    display: inline;
+    float: left;
+    padding: 10px 10px;
+}
+
+/********************
+    CONTENT CONTAINERS
+*********************/
+.page {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.item {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    max-width: 900px;
+    width: 90%;
+    text-align: left;
+}
+.box {
+    border-top: 5px solid grey;
+    background-color: #f1f1f1;
+    padding: 10px 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.underline {
+    background-color: #87CEEB;
+    background-size: cover;
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+/********************
+    IMAGES
+*********************/
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+.image img {
+    width: 100%;
+    border-bottom: 3px solid grey;
+}
+.embedded_image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+.embedded_image img {
+    width: 100%;
+    border-bottom: 3px solid grey;
+}
+.dummy {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: -100px;
+}
+.dummy img {
+    width: 100%;
+}
+
+/********************
+    YOUTUBE
+*********************/
+.youtube {
+    text-align: center;
+}
+iframe {
+    width: 100%;
+    max-width: 500px;
+}
+
+/********************
+    SLIDESHOW
+*********************/
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.slideshow pic {
+    position: absolute;
+    opacity:0;
+}
+.slideshow pic img {
+    border-bottom: 3px solid grey;
+    width: 100%;
+}
+pic:nth-child(4) {
+   animation: xfade 32s 24s infinite;
+}
+pic:nth-child(3) {
+   animation: xfade 32s 16s infinite;
+}
+pic:nth-child(2) {
+   animation: xfade 32s 8s infinite;
+}
+pic:nth-child(1) {
+   animation: xfade 32s 0s infinite;
+}
+@keyframes xfade {
+   0% {
+      opacity: 1;
+   }
+   23.5% {
+      opacity: 1;
+   }
+   25% {
+      opacity: 0;
+   }
+   98% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+/********************
+    BACK TO THE TOP
+*********************/
+.top a {
+    font-size: 20px;   
+}
+.top {
+    text-align: center;
+}
+
+/********************
+    CONNECT
+*********************/
+.connect {
+    border-top: 5px solid grey;
+    background-color: #f1f1f1;
+    padding: 10px 30px;
+}
+.connect .container {
+    margin-bottom: 60px;
+}
+.connect li {
+    list-style: none;
+    margin-left: -25px;
+}
+.connect .row a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/********************
+    FOOTER
+*********************/
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer p {
+    font-size: 9px;
+}
