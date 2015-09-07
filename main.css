@@ -27,11 +27,11 @@ a:hover {
     JUMBOTRON
 *********************/
 .jumbotron {
-    background-image: url('assets/sky_grass.jpg');
-    background-position: 50% 40%;
+    background-image: url('assets/sky_grass_slim.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    background-position: top left;
+    height: 175px;
     border-bottom: 3px solid grey;
 }
 .jumbotron .container {
@@ -41,7 +41,7 @@ a:hover {
 }
 .jumbotron h1 {
     color: #fff;
-    font-size: 48px;
+    font-size: 27px;
     font-weight: bold;
     display: block;
 }
@@ -55,7 +55,7 @@ a:hover {
     color: #87CEEB;
 }
 .jumbotron .nav {
-    margin-top: 215px;
+    margin-top: 90px;
 }
 
 /********************
@@ -81,9 +81,10 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
-    max-width: 900px;
+    max-width: 750px;
     width: 90%;
     text-align: left;
+    border-bottom-left-radius: 12px;
 }
 .box {
     border-top: 5px solid grey;
