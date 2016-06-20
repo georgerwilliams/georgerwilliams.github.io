@@ -22,11 +22,11 @@ a:hover {
     JUMBOTRON
 *********************/
 .jumbotron {
-    background-image: url('assets/sky_grass_slim.png');
+    background-image: url('assets/grwkc.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
-    height: 175px;
+    height: 175;
     border-bottom: 3px solid grey;
 }
 .jumbotron .container {
