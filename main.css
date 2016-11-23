@@ -26,8 +26,8 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
-    height: 175;
-    border-bottom: 3px solid grey;
+    height: 160px;
+    border-bottom: 5px solid black;
 }
 .jumbotron .container {
     margin-bottom: 15px;
@@ -50,12 +50,16 @@ a:hover {
     color: #87CEEB;
 }
 .jumbotron .nav {
-    margin-top: 90px;
+    margin-top: 25px;
 }
-
 /********************
     NAVIGATION
 *********************/
+.nav ul {
+	position: absolute;
+	top: 122px;
+    margin-left: 0px;
+}
 .nav li {
     display: inline;
 }
@@ -109,7 +113,7 @@ a:hover {
 }
 .image img {
     width: 100%;
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid black;
 }
 .embedded_image {
     margin-left: auto;
@@ -121,7 +125,7 @@ a:hover {
 }
 .embedded_image img {
     width: 100%;
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid black;
 }
 .dummy {
     margin-left: auto;
@@ -160,7 +164,7 @@ iframe {
 .slideshow img {
     position: absolute;
     opacity:0;
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid black;
     width: 100%;
 }
 .slideshow img:nth-child(4) {
