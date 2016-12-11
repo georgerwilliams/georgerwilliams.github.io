@@ -2,6 +2,7 @@
     GENERAL ELEMENTS
 *********************/
 p {
+    max-width: 1920px;
     font-size: 16px;
     padding-top: 5px;
     color: dimgray;
@@ -52,12 +53,25 @@ a:hover {
 .jumbotron .nav {
     margin-top: 25px;
 }
+.quote_background {
+    height: 125px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    margin-bottom: -50px;
+}
+.quote {
+    position: relative;
+    top: 49px;
+    color: white;
+    font-size: 18px;
+}
 /********************
     NAVIGATION
 *********************/
 .nav ul {
 	position: absolute;
-	top: 122px;
+	top: 150px;
     margin-left: 0px;
 }
 .nav li {
@@ -79,7 +93,7 @@ a:hover {
 .item {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     max-width: 750px;
     width: 90%;
     text-align: left;
