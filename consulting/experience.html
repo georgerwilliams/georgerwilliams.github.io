@@ -7,33 +7,57 @@
     <link rel="stylesheet" href="../main.css">
     <link rel="shortcut icon" href="http://georgerwilliams.github.io/favicon.ico?v=2">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<style>
+    a:hover {
+        color: #888;
+        text-decoration: none;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #808080;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #d1dfec;
+}
+
+.active {
+    background-color: #111;
+}
+</style>
+    </head>
 
 <body>
     <div class="jumbotron">
-        <div class="container">
-          
         </div>
-        <div class="nav">
-            <div class="container">
-                <ul class="pull-left">
-                    <li><a href="/"><img src="../pictures/home.png"></a></li>
-                    <li><a href="../intro/family.html"><img src="../pictures/me.png"></a></li>
-                    <li><a href="experience.html"><img src="../pictures/work.png"></a></li>
-                    <li><a href="../media/publications.html"><img src="../pictures/you.png"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div> 
-    
-        <a id="backtothetop"></a>
+                <ul>
+        <li><a href="/"><img src="../pictures/home.png">&nbsp;Home</a></li>
+  <li><a href="../intro/family.html"><img src="../pictures/me.png">&nbsp;Me</a></li>
+  <li><a class="active" href="../consulting/experience.html"><img src="../pictures/work.png">&nbsp;Work</a></li>
+  <li><a href="../media/publications.html"><img src="../pictures/you.png">&nbsp;Resources</a></li>
+          <li><a href="../media/contact.html"><img src="../pictures/email.png">&nbsp;Contact</a></li>
+</ul>   
      <div class="quote_background">
          <a id="backtothetop"></a>
          <div class="quote">"You can't talk your way out of something you behaved your way into." Douglas Conant </div>
     </div>
 
     <div class="page">
-                     <img src="../pictures/probanner.png">
         <div class="container">
             
             <div class="image">
@@ -113,42 +137,10 @@
     
     
     <div class="top">
-        <p><a href="#backtothetop">Back to the Top</a></p>
+        <p><a href="#backtothetop">Back to the top.</a></p>
     </div>
-    
-    <div class="connect">
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-md-4">
-                    <h3>Email</h3>
-                    <ul>
-                        <li><a onMouseOver="window.status='Contact_George'; return true;" title="grwphd@gmail.com" onMouseOut="window.status=''; return true;" href="mailto:grwphd@gmail.com" id="Contact_George"><img src="../pictures/email.png"></a></li>
-                    </ul>
-                </div>
-                
-                <div class="col-md-4">
-                    <h3>Linked In | Blog Spot</h3>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/george-r-williams-ph-d-b77b5347?" rel="nofollow" target="_blank"><img src="../pictures/in.png"></a></li>
-                        <li><a href="http://georgewilliamsr.blogspot.com" rel="nofollow" target="_blank"><img src="../pictures/blog.png"></a></li>
-                    </ul>
-                </div>
-                
-              <div class="col-md-4">
-                    <h3>Promotional Materials</h3>
-                    <ul>
-                        <li><a href="../supplements/grwres.pdf"><img src="../pictures/resume.png"></a></li>
-                        <li><a href="../supplements/grwpic.jpg"><img src="../pictures/george.png"></a></li>
-                    </ul>
-                </div> 
-                
-            </div>
-        </div>
-    </div>
-    
     <div class="footer">
-        <p>&copy; 2015 George R. Williams. All rights reserved.</p>  
+        <p>&copy; 2017 George R. Williams. All rights reserved.</p>  
     </div>
     
   </body>
