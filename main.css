@@ -263,7 +263,7 @@ iframe {
 *********************/
 .footer {
     text-align: center;
-    margin-top: 0;
+    margin-top: 1px;
     margin-bottom: 10px;
 }
 .footer p {
