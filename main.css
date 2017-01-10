@@ -24,6 +24,7 @@ a:hover {
 *********************/
 .jumbotron {
     background-image: url('assets/grwkc.png');
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -32,7 +33,7 @@ a:hover {
 }
 .jumbotron .container {
     margin-bottom: 15px;
-    margin-top: -20px;
+    margin-top: -20px;i
     text-align: center;
 }
 .jumbotron h1 {
@@ -54,7 +55,7 @@ a:hover {
     margin-top: 25px;
 }
 .quote_background {
-    height: 125px;
+    height: 50px;
     width: 100%;
     background-color: grey;
     text-align: center;
@@ -62,9 +63,9 @@ a:hover {
 }
 .quote {
     position: relative;
-    top: 49px;
+    top: 5px;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
 }
 /********************
     NAVIGATION
