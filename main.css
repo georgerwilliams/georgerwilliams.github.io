@@ -13,10 +13,10 @@ h1 {
     color: black;
 }
 a {
-    color: #87CEEB;
+    color: #512888;
 }
 a:hover {
-    color: green;
+    color: #512888;
 }
 
 /********************
@@ -29,7 +29,7 @@ a:hover {
     background-size: cover;
     background-position: top left;
     height: 160px;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #512888;
 }
 .jumbotron .container {
     margin-bottom: 15px;
@@ -110,7 +110,7 @@ a:hover {
     margin-bottom: 20px;
 }
 .underline {
-    background-color: #87CEEB;
+    background-color: #512888;
     background-size: cover;
     height: 2px;
     margin-bottom: 10px;
