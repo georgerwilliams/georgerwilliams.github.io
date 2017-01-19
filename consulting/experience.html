@@ -17,7 +17,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #808080;
+    margin-top: -1px;
+    height: 45px;
+    background-color: #512888;
 }
 
 li {
@@ -33,7 +35,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #512888;
+    background-color: black;
 }
 
 .active {
@@ -45,7 +47,6 @@ li a:hover:not(.active) {
 <body>
     <div class="jumbotron"></div>
     <ul>
-        <li><a href="/"><img src="../pictures/home.png">&nbsp;Home</a></li>
         <li><a href="../intro/family.html"><img src="../pictures/me.png">&nbsp;Me</a></li>
         <li><a class="active" href="../consulting/experience.html"><img src="../pictures/work.png">&nbsp;Work</a></li>
         <li><a href="../media/publications.html"><img src="../pictures/you.png">&nbsp;Media</a></li>
@@ -57,7 +58,7 @@ li a:hover:not(.active) {
     </div>
 
     <div class="page">
-                 <a href="#employment">| Employment |</a><a href="#consulting">&nbsp; Consulting |</a>          <a href="#education">&nbsp; Education |</a>
+        <a href="/"> &nbsp;| Home &nbsp; </a><a href="#employment">| Employment |</a><a href="#consulting">&nbsp; Consulting |</a>          <a href="#education">&nbsp; Education |</a>
         <div class="container">
             
             <div class="image">

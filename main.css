@@ -16,7 +16,7 @@ a {
     color: #512888;
 }
 a:hover {
-    color: #512888;
+    color: grey;
 }
 
 /********************
@@ -29,7 +29,7 @@ a:hover {
     background-size: cover;
     background-position: top left;
     height: 160px;
-    border-bottom: 5px solid #512888;
+    border-bottom: 5px solid black;
 }
 .jumbotron .container {
     margin-bottom: 15px;
@@ -52,12 +52,12 @@ a:hover {
     color: #87CEEB;
 }
 .jumbotron .nav {
-    margin-top: 25px;
+    margin-top: 12px;
 }
 .quote_background {
     height: 50px;
     width: 100%;
-    background-color: grey;
+    background-color: #512888;
     text-align: center;
     margin-bottom: -50px;
 }
