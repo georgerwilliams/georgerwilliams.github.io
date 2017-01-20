@@ -16,7 +16,7 @@ a {
     color: #512888;
 }
 a:hover {
-    color: grey;
+    color: #808080;
 }
 
 /********************
@@ -59,7 +59,7 @@ a:hover {
     width: 100%;
     background-color: #512888;
     text-align: center;
-    margin-bottom: -50px;
+    margin-bottom: -75px;
 }
 .quote {
     position: relative;
