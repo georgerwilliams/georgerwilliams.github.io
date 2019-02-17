@@ -75,6 +75,10 @@ body {
     background-color: black;
 }
 
+.buttons-li:hover {
+    background-color: #477998;
+}
+
 .buttons-a {
     text-decoration: none;
     color: white;
