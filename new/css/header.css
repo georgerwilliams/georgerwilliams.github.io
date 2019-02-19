@@ -3,7 +3,8 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Shadows Into Light', cursive;
 }
 
 #header-container {
@@ -32,43 +33,6 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 100px;
-}
-
-#buttons-ul {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    bottom: 46px;
-    text-align: center;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.buttons-li {
-    width: auto;
-    margin-bottom: 8px;
-    margin-left: 4px;
-    margin-right: 4px;
-    padding-top: 3px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 3px;
-    background-color: black;
-}
-
-.buttons-li:hover {
-    background-color: #477998;
-}
-
-.buttons-a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
 }
 
 @media only screen and ( max-width: 600px ) {

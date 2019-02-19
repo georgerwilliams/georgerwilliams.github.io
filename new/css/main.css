@@ -21,9 +21,19 @@ iframe {
     border: none;
 }
 
+#navigation {
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 #header {
     width: 100%;
     height: 315px;
+    margin-top: 40px;
 }
 
 #footer {
